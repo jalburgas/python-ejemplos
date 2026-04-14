@@ -2,7 +2,7 @@
 
 estudiantes = []  # Lista para guardar los estudiantes
 
-while True:
+while True:#Significado: "Mientras sea verdadero, sigue ejecutando este bloque de código una y otra vez"
     print("\n" + "="*30)
     print("1. Agregar estudiante")
     print("2. Ver estudiantes")
