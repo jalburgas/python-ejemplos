@@ -16,7 +16,7 @@ while True:  # Bucle infinito hasta que el usuario decida salir
     # OPCIÓN 1: AGREGAR PRODUCTO
     if opcion == "1":
         print("\n--- NUEVO PRODUCTO ---")
-        nombre = input("Nombre del producto: ").upper()
+        nombre = input("Nombre del producto: ").upper() # .upper() es un método de cadenas de texto en Python que convierte todas las letras a MAYÚSCULAS.
         
         # Validación con operador lógico OR
         if nombre == "":
